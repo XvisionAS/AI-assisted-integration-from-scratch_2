@@ -15,18 +15,6 @@ class IntegrationService {
   setJWT(jwt) {
     this.jwt = jwt;
   }
-
-  async getConnections() {
-    const response = await axios.get(
-      `${this.fieldapURL}/API/v1.10/${this.projectId}/subProject/${this.subProjectId}/connections`,
-      {
-        headers: {
-          'Authorization': `Bearer ${this.jwt}`
-        }
-      }
-    )
-    return response.data
-  }
 }
 
 // This is the exported instance of the data service
