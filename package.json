@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@sveltejs/vite-plugin-svelte": "^4.0.0-next.7",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.2",
     "svelte": "^5.27.0",
     "svelte-bootstrap-icons": "^3.1.1",
-    "vite": "^5.4.8"
+    "vite": "^7.3.1"
   }
 }
