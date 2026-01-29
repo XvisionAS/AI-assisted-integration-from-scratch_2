@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@sveltejs/vite-plugin-svelte": "^4.0.0-next.7",
-    "axios": "^1.7.2",
+    "axios": "^1.12.0",
     "bootstrap": "^5.3.2",
     "svelte": "^5.27.0",
     "svelte-bootstrap-icons": "^3.1.1",
